@@ -1,0 +1,54 @@
+{
+  "autheurs": [
+    {
+      "id": 1,
+      "prenom": "test",
+      "nomScene": "test",
+      "style": "RnB"
+    },
+    {
+      "prenom": "Curtis",
+      "nomScene": "50 cent",
+      "style": "Rap",
+      "id": 2
+    }
+  ],
+  "musiques": [
+    {
+      "genre": "Rap",
+      "auteur": "Maes",
+      "titre": "Distant",
+      "id": 1
+    },
+    {
+      "genre": "Rap",
+      "auteur": "Young Thug",
+      "titre": "Check",
+      "id": 2
+    },
+    {
+      "genre": "Rap",
+      "auteur": "Laylow",
+      "titre": "Dehors dans la night",
+      "id": 3
+    },
+    {
+      "genre": "Rap/RnB",
+      "auteur": "Rihanna",
+      "titre": "Pour It Up",
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "login": "test",
+      "password": "admin"
+    },
+    {
+      "id": 2,
+      "login": "Louise",
+      "password": "teste"
+    }
+  ]
+}
