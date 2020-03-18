@@ -1,6 +1,6 @@
-# Playlist
+# Auteur
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
+Timothe Zeroual, Licence APP DIM, tp angular pour le 18 mars 2020
 
 ## Development server
 
