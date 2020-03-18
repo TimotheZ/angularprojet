@@ -1,0 +1,14 @@
+<h3>Mes musiques :</h3>
+<ol class="musique">
+    <li *ngFor="let musique of musiques">
+        <span >{{musique.auteur}}</span>
+        <span >{{musique.titre}}</span>
+        <span >{{musique.genre}}</span>
+      <button class="delete" title="Supprimer musique"(click)="delete(musique.id)">x</button>
+    </li>
+</ol>
+<div>
+
+  
+
+

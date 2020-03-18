@@ -1,0 +1,19 @@
+.example-container {
+    position: absolute;
+    top: 64px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    width:min-content;
+  }
+
+  .sidecontent {
+      background-color: lightcoral;
+      color: slateblue;
+      text-align: center;
+  }
+  a {
+      margin-top: 7px;
+      font-size: 20px;
+  }

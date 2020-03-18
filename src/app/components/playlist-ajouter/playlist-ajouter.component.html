@@ -1,0 +1,19 @@
+<h3>Ajouter une musique :</h3>
+
+<form (ngSubmit)="onSubmit(f)" #f="ngForm">
+    <label>
+      Auteur
+      <input type="text" name="auteur" ngModel required>
+    </label>
+    <label>
+      Titre
+      <input type="text" name="titre" ngModel required>
+    </label>
+    <label>
+        Genre
+    <input type="text" name="genre" ngModel required>
+    </label>
+    <button type="submit" [disabled]="f.invalid">Submit</button>
+</form>
+
+<p id="message"></p>
